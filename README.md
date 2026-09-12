@@ -1,12 +1,12 @@
 ### 버전
-> 현재: `0.4.1`
-> 다음: `0.4.2`
+> 현재: `0.4.2`
+> 다음: `0.4.3`
 
 RPG Maker 2000/2003/XP/VX/VX Ace/MV/MZ 게임을 위한 범용 에뮬레이터 런처입니다.
 
 - 자유 비율 기능
 - 밝기 조절 기능 (쉐이딩)
-- 화면 필터 기능 (Pixellate, FidelityFX CAS)
+- 화면 필터 기능 (화질 개선 필터: Pixellate + FidelityFX CAS)
 - 반자동 업데이트 기능
 - 게임마다 맟춤 소리 조절 가능
 - 강제 전체화면 차단
@@ -14,4 +14,3 @@ RPG Maker 2000/2003/XP/VX/VX Ace/MV/MZ 게임을 위한 범용 에뮬레이터 �
 ***
 
 - 2026 ⓒ iyu.e — https://iyu-e.tistory.com/
-
