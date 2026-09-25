@@ -1,13 +1,32 @@
 ### 버전
-> 현재: `0.4.5`
-> 다음: `0.4.6`
+> 현재: `0.6.0`
+> 다음: `0.6.1`
 
 RPG Maker 2000/2003/XP/VX/VX Ace/MV/MZ 게임을 위한 범용 에뮬레이터 런처입니다.
 
+- 초고속 CLI 탐색(fd) 기반 Windows 98 가상 탐색기 모형 쯔꾸르 모음 (스팀, 문서, 다운로드 자동 감지)
+- 게임별 독립 설정 자동 분리 (rocket_config.json 및 읽기 전용 안전 fallback 지원)
+- 인게임 변수 실시간 HUD 핀(Pin) 고정 오버레이 (최대 10개)
+- 하단 렌파이(Ren'Py) 스타일 메시지 제어 바 및 메모리 안전 대사 기록(Dialogue Log) 뷰어
 - 자유 비율 기능
 - 밝기 조절 기능 (쉐이딩)
-- 화면 필터 기능 (화질 개선 필터: FidelityFX CAS)
+- 인게임 텍스트 글꼴/크기/굵기 변경 및 실시간 미리보기 (RocketFontSystem)
+- 메시지 자동 넘김(글자 수 기반 지연) 및 고속 스킵 (RocketText)
+- 사운드폰트(SoundFont) 기본 탑재로 노이즈 없는 고품질 MIDI 사운드 재생
+- 스마트 하이브리드 쉐이더 파이프라인 (초저지연 네이티브 & 화질 개선 필터 완벽 연동)
+- 화면 필터 기능 (화질 개선 필터: FidelityFX CAS, xBRZ, FSR, ScaleFX, CRT-Royale)
+- RPG Maker 2000 / 2003 (EasyRPG Player & liblcf) 네이티브 렌더링 & 실시간 브릿지 엔진
+- RPG Maker XP / VX / VX Ace (RGSS1/2/3) 네이티브 렌더링 & 실시간 브릿지 엔진
+- RPG Maker MV / MZ 네이티브 렌더링 & 인게임 인젝션 엔진
+- 실시간 ESP 오버레이 및 가상 마우스 타일 인스펙터 HUD
+- 실시간 스위치 및 변수 관리자 (값 고정 Freeze 치트 지원)
+- 전체 맵 복원 뷰어 및 즉시 워프(텔레포트) 기능
+- LCF 바이너리 파서 (RPG_RT.ldb / RPG_RT.lmt / MapXXXX.lmu) 및 3D 레이어 타일맵 복원
+- RGSSAD (v1/v2/v3) 암호화 아카이브 및 Ruby Marshal (.rxdata / .rvdata / .rvdata2) 바이너리 파서 탑재
+- 범용 핫키 매핑 시스템 (퀵세이브/로드, 배속 조절, 노클립 등)
 - 반자동 업데이트 기능
+- 실행 파일에 리소스가 묶인 MV/MZ 게임 네이티브 실행 및 NW.js 호환 저장
+- 오래된 XP/VX 게임 스크립트(Ruby 1.8) 호환 및 2000/2003 한국어·일본어 인코딩 자동 판별
 - 게임마다 맟춤 소리 조절 가능
 - 강제 전체화면 차단
 
